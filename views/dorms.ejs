@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div style="flex-direction: column;align-items: center;margin-top: 10vh;">
+            <div class="row">
+                <form class="col s12" action="/create-dorm" method="POST">
+                    <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="Adrianco" name="fullname" type="text" class="validate">
+                        <label for="fullname">Full Name</label>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="input-field col s12">
+                        <input name="email" type="text" placeholder="siapadisana@gmail.com" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="input-field col s12">
+                        <input name="gender" type="text" class="validate" placeholder="Male">
+                        <label for="gender">Male</label>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="input-field col s12">
+                        <input name="age" type="text" class="validate" placeholder="19">
+                        <label for="age">19</label>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input name="coundtry" type="text" class="validate" placeholder="Canada">
+                            <label for="country">Canada</label>
+                        </div>
+                        </div>
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
